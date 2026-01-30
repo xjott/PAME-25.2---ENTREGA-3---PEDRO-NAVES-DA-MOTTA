@@ -1,14 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
+import { eventos } from "../eventos";
 
 export default function Home(){
-    return (
-        <main>
-            <h1>
-                Olá,mundo!
-                <Link href="/users">Users</Link>
-            </h1>
-        </main>
-    )
+    var destaques = eventos.filter((evento) => evento.destaque);
+    var proximos = eventos.slice(0,3);
+// pelo commit
 }
-
