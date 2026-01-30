@@ -1,5 +1,4 @@
-
-import eventos from "./lib/eventos"
+import type eventos 
 
 export default function IngressosPage() {
   const ingressosSimulados = [eventos[0], eventos[1]];

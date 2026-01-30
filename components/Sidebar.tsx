@@ -1,35 +1,26 @@
-
-"use client";
-
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
-var links = [
+export default function Sidebar() {
+  return (
+    <aside className="sidebar">
+      <div className="sidebarBrand">
+        <div className="brandTitle">Plataforma</div>
+        <div className="brandSub">Eventos • Ingressos</div>
+      </div>
 
-{ href:"/", label:"Home"},
-{ href:"/eventos", label:"Lista de Eventos"},
-{href:"/ingressos", label:"Meus Ingressos"},
-{href:"/perfil", label: "Perfil"},
+      <nav className="sidebarNav">
+        <Link className="sidebarLink" href="/">Home</Link>
+        <br></br>
+        <Link className="sidebarLink" href="/eventos">Lista de Eventos</Link>
+        <br></br>
+        <Link className="sidebarLink" href="/ingressos">Meus Ingressos</Link>
+        <br></br>
+        <Link className="sidebarLink" href="/perfil">Perfil</Link>
+      </nav>
 
-]
-
-export default function Sidebar(){
-
-    const pathname = usePathname();
-
-    return(
-        <aside className="sidebar">
-            <div className = "sidebarBrand">
-                <div className="brandTitle">Plataforma</div>
-                <div className="brandSub">Eventos & Ingressos</div>
-            </div>
-
-        
-
-
-
-
-
-        </aside>
-    )
+      <div className="sidebarFooter">
+        <div className="smallMuted">Simulacao</div>
+      </div>
+    </aside>
+  );
 }

@@ -1,17 +1,93 @@
+/* =========================
+   Base
+========================= */
+:root{
+  /* Light + earthy palette */
+  --bg: #fbfaf7;          /* off-white quente */
+  --panel: #ffffff;       /* cards */
+  --panel2: #f7f4ee;      /* subtle section bg */
+  --text: #1f2328;        /* texto principal */
+  --muted: #6b6f76;       /* texto secundario */
+  --border: rgba(31,35,40,0.10);
 
-*{
-  box-sizing: border-box;
+  /* Tons terrosos (detalhes) */
+  --accent: #b56a3a;      /* terracota/argila */
+  --accent2: #8b6b4f;     /* bronze/terra */
+  --accentSoft: rgba(181,106,58,0.12);
+
+  --shadow: 0 8px 24px rgba(20, 20, 20, 0.06);
+
+  /* Layout */
+  --radius: 16px;
+  --radius2: 14px;
+  --sidebarW: 260px;
 }
+
+*{ box-sizing: border-box; }
 
 html, body{
+  height: 100%;
   margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #0b0f17;
-  color: #e8eefc;
+  background: var(--bg);
+  color: var(--text);
+
+  /* Fonte fina / clean */
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  font-weight: 300;
+  letter-spacing: 0.2px;
 }
 
-.layout{
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+}
+
+/* =========================
+   App Shell
+========================= */
+.appShell{
+  display: grid;
+  grid-template-columns: var(--sidebarW) 1fr;
+  min-height: 100vh;
+}
+
+.appMain{
+  padding: 28px;
+}
+
+/* =========================
+   Sidebar (clara, minimal)
+========================= */
+.sidebar{
+  position: sticky;
+  top: 0;
+  height: 100vh;
+
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(10px);
+
+  border-right: 1px solid var(--border);
+  padding: 18px;
+
   display: flex;
-  min-height: 100vh
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebarBrand{
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--panel);
+  box-shadow: var(--shadow);
+}
+
+.brandTitle{
+  font-size: 14px;
+  font-weight: 500; /* u*/
 }
