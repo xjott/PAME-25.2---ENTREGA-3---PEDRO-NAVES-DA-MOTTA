@@ -19,7 +19,7 @@ export const eventos: Evento[] = [
     data: "10/02/2026",
     horario: "20:00",
     valorInicial: 80,
-    imagem: "",
+    imagem: "https://media.licdn.com/dms/image/v2/C560BAQHpcIYLsiM75A/company-logo_200_200/company-logo_200_200/0/1630642816483/tiny_capital_logo?e=2147483647&v=beta&t=eIkNoKq2Jm5gdxxwAwkWCBUF9MDjRMB0gmOzb15ew1Y",
     sinopse: "sinopse",
     classificacao:"18 anos",
     destaque: true,
