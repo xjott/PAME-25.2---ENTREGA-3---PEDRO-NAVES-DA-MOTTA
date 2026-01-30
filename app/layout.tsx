@@ -1,9 +1,10 @@
-import "./globals.css"
-import Sidebar from "./components/Sidebar";
+import Sidebar from "../components/Sidebar";
+import "./globals.css";
+import { title } from "process";
 
 export const metadata = {
-    title: "Plataforma de Eventos",
-    description: "Eventos"
+  title: "Plataforma de Eventos",
+  description: "Eventos, ingressos digitais e acesso por catracas inteligentes.",
 };
 
 export default function RootLayout({
