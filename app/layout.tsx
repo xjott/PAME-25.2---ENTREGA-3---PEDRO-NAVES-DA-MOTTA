@@ -1,26 +1,29 @@
 import "./globals.css";
 import Sidebar from "../components/Sidebar";
-// colocar o título e a descrição
-export const metadata = {
-  title: "Plataforma de Eventos",
-  description: "Eventos, ingressos e experiencias imersivas",
+
+// fazer a parte de layout
+
+// pegar título e descrição
+export var metadata = {
+    title: "Plataforma de Eventos",
+    description: "Eventos, ingressos digitais e acesso por catracas inteligentes.",  
 };
 
+// fazer a root do layout
 
-// colocar o layout propriamente dito da página
 export default function RootLayout({
-  children,
+    children,
 }: {
-  children: React.ReactNode;
+    children: React.ReactNode;
 }) {
-  return (
-    <html lang="pt-br">
-      <body>
-        <div className="appShell">
-          <Sidebar />
-          <main className="appMain">{children}</main>
-        </div>
-      </body>
-    </html>
-  );
+    return (
+        <html lang = "pt-br">
+            <body>
+                <div className="layout">
+                    <Sidebar></Sidebar>
+                    <main className="conteudo">{children}</main>
+                </div>
+            </body>
+        </html>
+    );
 }
