@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/TypeScript/site/app/page.tsx"],"sourcesContent":["export default function Page() {\n  return (\n    <main\n      style={{\n        padding: \"40px\",\n        backgroundColor: \"#fff\",\n        color: \"#000\",\n        borderRadius: \"8px\",\n        fontSize: \"24px\",\n      }}\n    >\n      FUNCIONOU 🚀\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,+QAAC;QACC,OAAO;YACL,SAAS;YACT,iBAAiB;YACjB,OAAO;YACP,cAAc;YACd,UAAU;QACZ;kBACD;;;;;;AAIL"}}]
+}

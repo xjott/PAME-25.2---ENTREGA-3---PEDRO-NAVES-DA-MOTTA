@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/TypeScript/site/app/layout.tsx"],"sourcesContent":["export default function RootLayout({\n  children,\n}: {\n  children: React.ReactNode;\n}) {\n  return (\n    <html lang=\"pt-br\">\n      <body\n        style={{\n          margin: 0,\n          minHeight: \"100vh\",\n          display: \"flex\",\n          justifyContent: \"center\",\n          alignItems: \"center\",\n          backgroundColor: \"#111\",\n          color: \"#fff\",\n          fontFamily: \"Arial, sans-serif\",\n        }}\n      >\n        {children}\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAAe,SAAS,WAAW,EACjC,QAAQ,EAGT;IACC,qBACE,+QAAC;QAAK,MAAK;kBACT,cAAA,+QAAC;YACC,OAAO;gBACL,QAAQ;gBACR,WAAW;gBACX,SAAS;gBACT,gBAAgB;gBAChB,YAAY;gBACZ,iBAAiB;gBACjB,OAAO;gBACP,YAAY;YACd;sBAEC;;;;;;;;;;;AAIT"}},
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/TypeScript/site/node_modules/next/src/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-rsc']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,oJACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

@@ -1,7 +1,7 @@
 
 // importar as funcionalidades que eu vou usar
 import Link from "next/link";
-import EventCard from "@/components/EventCard";
+import EventCard from "../components/EventCard";
 import { destaquesDaSemana } from "./lib/eventos";
 import { proximosEventos } from "./lib/eventos";
 

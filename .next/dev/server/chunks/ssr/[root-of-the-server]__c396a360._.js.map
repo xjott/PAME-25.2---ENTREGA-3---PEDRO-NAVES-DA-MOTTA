@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/Desktop/ENTREGA3/site/app/perfil/page.tsx"],"sourcesContent":["\nexport default function PerfilPage() {\n  return (\n    <div className=\"page\">\n      <div className=\"pagetitle\">Perfil</div>\n      <div className=\"note\">Simulação de área do cliente.</div>\n\n      <div className=\"profilebox\">\n        <div><span className=\"label\">Nome:</span> Usuário Exemplo</div>\n        <div><span className=\"label\">Email:</span> usuario@exemplo.com</div>\n        <div><span className=\"label\">Status:</span> Logado (simulado)</div>\n      </div>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AACe,SAAS;IACtB,qBACE,6QAAC;QAAI,WAAU;;0BACb,6QAAC;gBAAI,WAAU;0BAAY;;;;;;0BAC3B,6QAAC;gBAAI,WAAU;0BAAO;;;;;;0BAEtB,6QAAC;gBAAI,WAAU;;kCACb,6QAAC;;0CAAI,6QAAC;gCAAK,WAAU;0CAAQ;;;;;;4BAAY;;;;;;;kCACzC,6QAAC;;0CAAI,6QAAC;gCAAK,WAAU;0CAAQ;;;;;;4BAAa;;;;;;;kCAC1C,6QAAC;;0CAAI,6QAAC;gCAAK,WAAU;0CAAQ;;;;;;4BAAc;;;;;;;;;;;;;;;;;;;AAInD"}}]
+}

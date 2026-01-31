@@ -1,5 +1,5 @@
 import "./globals.css";
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "../components/Sidebar";
 // colocar o título e a descrição
 export const metadata = {
   title: "Plataforma de Eventos",
