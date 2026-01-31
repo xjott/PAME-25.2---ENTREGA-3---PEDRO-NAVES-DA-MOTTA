@@ -1,3 +1,7 @@
+/* bom, tem bastante coisa faltando no resto dos files, mas é melhor deixar esse bem completo pra que fique o mais apresentável possível, já que as outras funcionalidades ainda quase não existem */
+
+
+/* começando setando as configurações básicas */
 :root{
   --bg: #f8f3ea;
   --bg2: #efe7da;
@@ -51,6 +55,8 @@ img{
 .appMain{
   padding: 28px;
 }
+
+/* a sidebar é uma das partes mais vitais do site, tenho que pesquisar coisas como a posição, o espaçamento, a altura pra ficar legal etc */
 
 .sidebar{
   position: sticky;
@@ -120,6 +126,8 @@ img{
   color: var(--muted);
 }
 
+/* passando agora para atributos mais da página em si, ver coisas como margem, largura, fonte, cor, coisas básicas de página (não esquecer) */
+
 .page{
   max-width: 1100px;
 }
@@ -141,6 +149,8 @@ img{
   font-weight: 300;
   color: var(--muted);
 }
+
+/* hora de algumas sections */
 
 .section{
   margin-top: 18px;
@@ -173,6 +183,8 @@ img{
   font-weight: 300;
   color: var(--muted);
 }
+
+/* os banners são uma parte vital (voltar neles) */
 
 .banner{
   border-radius: var(--radius);
@@ -238,6 +250,8 @@ img{
   gap: 14px;
 }
 
+/* note-to-self: ver mais propriedades que eu possa colocar nos cards, eles tem que ficar bem legais */
+
 .card{
   border-radius: var(--radius);
   background: var(--panel);
@@ -299,6 +313,8 @@ img{
   flex-wrap: wrap;
 }
 
+/* desgin de botões */
+
 .btn{
   border-radius: 999px;
   padding: 10px 14px;
@@ -337,6 +353,8 @@ img{
   grid-template-columns: 1.2fr 1fr;
   gap: 14px;
 }
+
+/* colocar uns detalhesnas imagens, sempre é bom ja que é o atrativo do site */
 
 .detailsImage{
   width: 100%;
@@ -389,6 +407,8 @@ img{
   color: var(--muted);
 }
 
+/* enfim, a parte final do site, colocar as coisas básicas de footer e é isso */
+
 .footer{
   margin-top: 26px;
   border-top: 1px solid var(--border);
@@ -404,6 +424,8 @@ img{
 .footerTitle{
   font-weight: 400;
 }
+
+/* e mais algumas coisas pra fechar bem */
 
 @media (max-width: 980px){
   .appShell{

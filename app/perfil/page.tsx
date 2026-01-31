@@ -1,4 +1,4 @@
-
+// criar uma div pra ser onde aparece o perfil, com informações dele
 export default function PerfilPage() {
   return (
     <div className="page">

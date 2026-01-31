@@ -1,3 +1,5 @@
+// colocando tudo que os tipos precisam ter de acordo com o case
+
 export type Evento = {
     id: string;
     titulo: string;
@@ -17,5 +19,5 @@ export type Ingresso = {
     data: string;
     horario: string;
     setor: string;
-    codigo: string; // simulação de um QR code
+    codigo: string;
 }

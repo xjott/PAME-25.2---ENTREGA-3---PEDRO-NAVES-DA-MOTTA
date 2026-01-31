@@ -1,12 +1,15 @@
+
+// importar as funcionalidades que eu vou usar
 import Link from "next/link";
 import EventCard from "@/components/EventCard";
 import { destaquesDaSemana } from "./lib/eventos";
 import { proximosEventos } from "./lib/eventos";
 
+// vou começar fazendo só a home
 export default function HomePage() {
   const destaques = destaquesDaSemana();
   const proximos = proximosEventos(6);
-
+// header
   return (
     <div className="page">
       <header className="pageHeader">
@@ -15,14 +18,14 @@ export default function HomePage() {
           Acompanhe a programacao, veja detalhes e simule a compra de ingressos digitais.
         </p>
       </header>
-
+    {/* agora saindo do header */}
       {/* Destaques da Semana */}
       <section className="section">
         <div className="sectionHeader">
           <h2 className="sectionTitle">Destaques da Semana</h2>
           <span className="smallMuted">banner</span>
         </div>
-
+      {/* Fazendo um div para os banners do destaques da semana*/}
         <div className="banner">
           {destaques.length === 0 ? (
             <div className="empty">Sem destaques no momento.</div>
@@ -44,7 +47,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Proximos Eventos */}
+      {/*  fazendo o mesmo para os proximos eventos */}
       <section className="section">
         <div className="sectionHeader">
           <h2 className="sectionTitle">Proximos Eventos</h2>
@@ -60,7 +63,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Rodape */}
+      {/* por último terminar com o footer */}
       <footer className="footer">
         <div className="footerGrid">
           <div>

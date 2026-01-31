@@ -1,5 +1,5 @@
 import type { Ingresso } from "./types";
-
+// fazendo um ingresso fictício
 const ingressos: Ingresso[]= [
 
 {

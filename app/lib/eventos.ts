@@ -1,5 +1,7 @@
 import type { Evento } from "./types";
 
+// parte um pouco mais fácil aqui, só criar uns eventos fictícios
+
 export const eventos: Evento[] = [
   {
     id: "Forza",
@@ -40,6 +42,7 @@ export const eventos: Evento[] = [
   },
 ];
 
+// nessa seção pesquisar TS pra entender como faz 
 export function buscarEventoPorId(id: string): Evento | undefined {
   return eventos.find((evento) => evento.id === id);
 }
