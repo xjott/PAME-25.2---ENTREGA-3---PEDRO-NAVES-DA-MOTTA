@@ -1,26 +1,25 @@
-import type eventos 
+import TicketCard from "@/components/TicketCard";
+import ingressos from "@/lib/ingressos";
 
 export default function IngressosPage() {
-  const ingressosSimulados = [eventos[0], eventos[1]];
-
   return (
     <div className="page">
-      <div className="pagetitle">Meus Ingressos</div>
-      <div className="note">
-        Simulação: usuário logado visualizando ingressos adquiridos.
-      </div>
+      <header className="pageHeader">
+        <h1 className="pageTitle">Meus Ingressos</h1>
+        <p className="pageSubtitle">Simulacao de area logada para visualizar ingressos adquiridos</p>
+      </header>
 
-      <div className="grid">
-        {ingressosSimulados.map((evento) => (
-          <div key={evento.id} className="ticketCard">
-            <div className="tickettitle">{evento.nome}</div>
-            <div className="ticketmeta">
-              {evento.data} • {evento.horario}
-            </div>
-            <div className="ticketcode">QR-CODE: #SIMULADO-{evento.id}A9</div>
+      <section className="section">
+        {ingressos.length === 0 ? (
+          <div className="empty">Voce ainda nao comprou ingressos.</div>
+        ) : (
+          <div className="grid">
+            {ingressos.map((ingresso:any) => (
+              <TicketCard key={ingresso.id} ingresso={ingresso} />
+            ))}
           </div>
-        ))}
-      </div>
+        )}
+      </section>
     </div>
   );
 }
