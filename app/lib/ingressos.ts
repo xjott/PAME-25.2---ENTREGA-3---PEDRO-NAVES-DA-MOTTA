@@ -8,3 +8,24 @@ export type Ingresso = {
     codigo: string;
 }
 
+export const ingressos =[
+    {
+    id: "id",
+    eventoID: "ID",
+    setor: "setor",
+    quantidade: "quantidade",
+    codigo: "codigo",
+
+},
+
+    {
+    id: "id",
+    eventoID: "ID",
+    setor: "setor",
+    quantidade: "quantidade",
+    codigo: "codigo",
+    }
+
+
+]
+
