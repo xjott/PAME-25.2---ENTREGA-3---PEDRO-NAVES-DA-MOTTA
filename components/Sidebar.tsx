@@ -1,36 +1,42 @@
 import Link from "next/link";
-/* vou colocar os links da sidebar em uma array */
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/eventos", label: "Lista de Eventos" },
-  { href: "/ingressos", label: "Meus Ingressos" },
-  { href: "/perfil", label: "Perfil" },
-];
+
+// próximo passo : fazer a sidebar 
 
 
-// aí aqui vai a sidebar em si
+// fazer meio que o titulo da sidebar
 export default function Sidebar(){
     return(
         <aside className="sidebar">
-            <div className="brandDaSidebar">
-                {/* aqui é como se fosse o título da sidebar*/}
-                <div className="logo">EVENTOS</div>
-                <div className="tag">Plataforma Web</div>
-            </div>
-            {/* ai aqui eu vou colocar os links que eu declarei lá em cima */}
-            <nav className="navegação">
-                {links.map((item)=>(
-                    <Link key={item.href} className="linksDaNavegacao" href="/">{item.label}</Link>
-                ))}
-            {/* observação pro usuário */}
-            <div className="sidebarFoot">
-                <div className="sidebarFixa">
-                    <div className="navegar">
-                    Navegação lateral obrigatória: Home, Lista de Eventos, Meus Ingressos e Perfil.
-                    </div>
+            <div className="branding">
+                <div className="tituloDaBrand">
+                    CRISTINA
+                </div>
+                <div className="subTituloDaBrand">
+                    EVENTOS & INGRESSOS
                 </div>
             </div>
-            </nav>
+
+{/* fazer os elementos da sidebar */}
+
+        <nav className="navegacao">
+            <Link href="/" className="linkDeNavegacao">
+            Home
+            </Link>
+            
+            <Link href="/" className="linkdeNavegacao"
+            >Lista de Eventos
+            </Link>
+
+            <Link href="/" className="linkdeNavegacao">
+            Meus Ingressos
+            </Link>
+
+            <Link href="/" className="linkdeNavegacao">
+            Perfil
+            </Link>
+        </nav>
         </aside>
-    )
+    );
 }
+
+// coloquei os links para redirecionar para as páginas 
