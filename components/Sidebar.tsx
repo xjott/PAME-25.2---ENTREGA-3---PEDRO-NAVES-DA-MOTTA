@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+//colocar os links de redirecionamento
+
 const links = [
   { href: "/", label: "Home" },
   { href: "/eventos", label: "Lista de Eventos" },
@@ -10,6 +12,7 @@ const links = [
   { href: "/perfil", label: "Perfil" },
 ];
 
+// fazendo a sidebar
 export default function Sidebar() {
   const pathname = usePathname();
 

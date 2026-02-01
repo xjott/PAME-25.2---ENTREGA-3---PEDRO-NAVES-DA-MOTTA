@@ -12,6 +12,7 @@ __turbopack_context__.n(__turbopack_context__.i("[project]/Desktop/ENTREGA3/site
 "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
+// fazer o perfil do usuário, vai ser simples, então um arquivo só should do the trick
 __turbopack_context__.s([
     "default",
     ()=>PerfilPage
@@ -20,31 +21,31 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$
 ;
 function PerfilPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "page",
+        className: "pagina",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "pageHeader",
+                className: "header",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "pageTitle",
+                        className: "titulo",
                         children: "Perfil"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                        lineNumber: 5,
+                        lineNumber: 7,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "pageSubtitle",
-                        children: "Pagina simples (simulacao)"
+                        className: "subtitulo",
+                        children: "Página "
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                        lineNumber: 6,
+                        lineNumber: 8,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                lineNumber: 4,
+                lineNumber: 6,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -52,81 +53,77 @@ function PerfilPage() {
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "card",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "cardBody",
+                        className: "bodydocard",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "sectionTitle",
-                                children: "Usuario"
+                                className: "titulosecao",
+                                children: "Usuário"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                                lineNumber: 12,
-                                columnNumber: 13
+                                lineNumber: 16,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text",
-                                children: "Nome: Cliente Exemplo"
+                                className: "texto",
+                                children: "Nome: Cristina"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                                lineNumber: 13,
-                                columnNumber: 13
+                                lineNumber: 17,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text",
-                                children: "Email: cliente@exemplo.com"
+                                className: "texto",
+                                children: "email : Cristina@exemplo.com"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                                lineNumber: 14,
-                                columnNumber: 13
+                                lineNumber: 18,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "cardActions",
+                                className: "acoesCard",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "btn btnPrimary",
-                                        type: "button",
-                                        disabled: true,
-                                        children: "Editar (visual)"
+                                        className: "btn btnprimary",
+                                        children: "Editar"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                                        lineNumber: 17,
-                                        columnNumber: 15
+                                        lineNumber: 23,
+                                        columnNumber: 9
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                        className: "btn btnGhost",
-                                        type: "button",
-                                        disabled: true,
-                                        children: "Sair (visual)"
+                                        className: "btn btnsecondary",
+                                        children: "Sair"
                                     }, void 0, false, {
                                         fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 15
+                                        lineNumber: 26,
+                                        columnNumber: 9
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                                lineNumber: 16,
-                                columnNumber: 13
+                                lineNumber: 22,
+                                columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                        lineNumber: 11,
-                        columnNumber: 11
+                        lineNumber: 15,
+                        columnNumber: 9
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                    lineNumber: 10,
-                    columnNumber: 9
+                    lineNumber: 14,
+                    columnNumber: 7
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-                lineNumber: 9,
-                columnNumber: 7
+                lineNumber: 13,
+                columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/ENTREGA3/site/app/perfil/page.tsx",
-        lineNumber: 3,
+        lineNumber: 5,
         columnNumber: 5
     }, this);
 }

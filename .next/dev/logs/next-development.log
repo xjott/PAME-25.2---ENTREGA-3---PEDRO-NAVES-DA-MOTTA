@@ -1,6 +1,21 @@
-[00:00:01.019] Server  LOG     ✓ Ready in 697ms
-[00:00:02.905] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.507] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.017] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:13.774] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.849] Server  LOG     ✓ Ready in 613ms
+[00:00:01.666] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.668] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.926] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.981] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:07.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.220] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:23.619] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/ENTREGA3/site/components/Sidebar.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:00:23.620] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/ENTREGA3/site/components/Sidebar.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:00:23.622] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/ENTREGA3/site/components/Sidebar.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:00:23.623] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/ENTREGA3/site/components/Sidebar.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:00:23.625] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Desktop/ENTREGA3/site/components/Sidebar.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:00:23.629] Server  LOG     ✓ Compiled in 18ms
+[00:00:24.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.282] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.371] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:24.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:29.454] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

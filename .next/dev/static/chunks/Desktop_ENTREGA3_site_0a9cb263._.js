@@ -4,7 +4,9 @@
 
 __turbopack_context__.s([
     "default",
-    ()=>Sidebar
+    ()=>Sidebar,
+    "link_dest",
+    ()=>link_dest
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/ENTREGA3/site/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/ENTREGA3/site/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
@@ -14,6 +16,7 @@ var _s = __turbopack_context__.k.signature();
 "use client";
 ;
 ;
+//colocar os links de redirecionamento
 const links = [
     {
         href: "/",
@@ -32,6 +35,11 @@ const links = [
         label: "Perfil"
     }
 ];
+const link_dest = [
+    {
+        href: "/detalhes"
+    }
+];
 function Sidebar() {
     _s();
     const pathname = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
@@ -46,7 +54,7 @@ function Sidebar() {
                         children: "Plataforma"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-                        lineNumber: 19,
+                        lineNumber: 27,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -54,13 +62,13 @@ function Sidebar() {
                         children: "Eventos • Ingressos"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-                        lineNumber: 20,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-                lineNumber: 18,
+                lineNumber: 26,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -73,13 +81,13 @@ function Sidebar() {
                         children: item.label
                     }, item.href, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-                        lineNumber: 27,
+                        lineNumber: 35,
                         columnNumber: 13
                     }, this);
                 })
             }, void 0, false, {
                 fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-                lineNumber: 23,
+                lineNumber: 31,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -89,18 +97,18 @@ function Sidebar() {
                     children: "Simulacao de area logada"
                 }, void 0, false, {
                     fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-                    lineNumber: 39,
+                    lineNumber: 47,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-                lineNumber: 38,
+                lineNumber: 46,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/ENTREGA3/site/components/Sidebar.tsx",
-        lineNumber: 17,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }

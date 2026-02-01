@@ -6,12 +6,12 @@ import type { Ingresso } from "./types";
 const ingressos: Ingresso[] = [
   {
     id: "t-001",
-    eventoId: "neon-night",
-    eventoTitulo: "Neon Night Festival",
+    eventoId: "festival-cristina",
+    eventoTitulo: "Cristina Festival",
     data: "2026-02-10",
     horario: "22:00",
     setor: "Pista",
-    codigo: "NNF-2026-001-X9Q2",
+    codigo: "NNF",
   },
   {
     id: "t-002",
@@ -20,7 +20,7 @@ const ingressos: Ingresso[] = [
     data: "2026-02-14",
     horario: "20:30",
     setor: "Camarote",
-    codigo: "CLE-2026-002-K7A1",
+    codigo: "CLE",
   },
 ];
 

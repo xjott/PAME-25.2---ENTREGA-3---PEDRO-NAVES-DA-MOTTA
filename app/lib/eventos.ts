@@ -2,8 +2,8 @@ import type { Evento } from "./types";
 
 const eventos: Evento[] = [
   {
-    id: "neon-night",
-    titulo: "Neon Night Festival",
+    id: "festival cristina",
+    titulo: "Cristina Festival",
     imagem: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1400&q=80",
     data: "2026-02-10",
     horario: "22:00",
@@ -26,8 +26,8 @@ const eventos: Evento[] = [
     destaque: true,
   },
   {
-    id: "afterglow",
-    titulo: "Afterglow (DJ Set)",
+    id: "cristina-spe",
+    titulo: "Cristina Special",
     imagem: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1400&q=80",
     data: "2026-02-21",
     horario: "23:30",

@@ -148,8 +148,8 @@ __turbopack_context__.s([
 ]);
 const eventos = [
     {
-        id: "neon-night",
-        titulo: "Neon Night Festival",
+        id: "festival cristina",
+        titulo: "Cristina Festival",
         imagem: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1400&q=80",
         data: "2026-02-10",
         horario: "22:00",
@@ -170,8 +170,8 @@ const eventos = [
         destaque: true
     },
     {
-        id: "afterglow",
-        titulo: "Afterglow (DJ Set)",
+        id: "cristina-spe",
+        titulo: "Cristina Special",
         imagem: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1400&q=80",
         data: "2026-02-21",
         horario: "23:30",
@@ -218,31 +218,31 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$
 ;
 function EventosPage() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "page",
+        className: "pagina",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-                className: "pageHeader",
+                className: "header",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "pageTitle",
+                        className: "titulo",
                         children: "Lista de Eventos"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx",
-                        lineNumber: 7,
+                        lineNumber: 8,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "pageSubtitle",
+                        className: "subtitulo",
                         children: "Listagem completa dos eventos disponiveis"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx",
-                        lineNumber: 8,
+                        lineNumber: 11,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx",
-                lineNumber: 6,
+                lineNumber: 7,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -253,23 +253,23 @@ function EventosPage() {
                             evento: evento
                         }, evento.id, false, {
                             fileName: "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx",
-                            lineNumber: 14,
-                            columnNumber: 13
+                            lineNumber: 19,
+                            columnNumber: 12
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx",
-                    lineNumber: 12,
+                    lineNumber: 17,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx",
-                lineNumber: 11,
+                lineNumber: 16,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx",
-        lineNumber: 5,
+        lineNumber: 6,
         columnNumber: 5
     }, this);
 }

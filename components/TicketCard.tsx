@@ -1,6 +1,5 @@
 import ingressos from "../app/lib/ingressos";
 import { Ingresso } from "../app/lib/types";
-
 // tipando
 type Props = {
   ingresso: Ingresso;
@@ -17,13 +16,11 @@ export default function TicketCard({ingresso}: Props){
         </h3>
 
       <div className="cardMeta">
-        <span>{ingresso.data}</span>
-        <span> .</span>
-        <span> .</span>
+        <div>{ingresso.data}</div>
         <span> {ingresso.setor}</span>
 
       <div className="tcodigo">
-        <div className="codigo">Código do Ingresso</div>
+        
         <div className="code">{ingresso.codigo}</div>
       </div>
 
