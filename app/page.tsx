@@ -20,7 +20,6 @@ export default function HomePage(){
       <section className="section">
         <div className="header">
           <h2 className="titulo">Destaques da Semana</h2>
-          <span className="banner">Banner</span>
         </div>
 
         {/* fazer uma div com tudo que vai estar dentro do meu banner , os destaques vão estar em banner*/}
@@ -47,7 +46,6 @@ export default function HomePage(){
       <section className="section">
         <div className="header">
           <h2 className="titulo">Proximos Eventos</h2>
-          <span className="horizontal">Listagem horizontal</span>
         </div>
 
         {/* achar os eventos e colocar eles na lista horizontal */}
