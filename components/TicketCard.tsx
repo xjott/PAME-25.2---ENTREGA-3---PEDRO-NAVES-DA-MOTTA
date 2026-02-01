@@ -5,7 +5,6 @@ type Props = {
   ingresso: Ingresso;
 }
 
-
 // fazendo o layout do ingresso
 export default function TicketCard({ingresso}: Props){
   return(
@@ -33,5 +32,6 @@ export default function TicketCard({ingresso}: Props){
     </article>
   );
 }
+
 
 // coloquei todas as coisas que o card precisa ter, separado em um meta, o código, e as ações do card, esse foi o layout do ingresso
