@@ -1,30 +1,27 @@
+// agora que eu fiz os componentes da home em si, vou fazer o layout geral da página
+
 import type { Metadata } from 'next';
 import "./globals.css";
 import Sidebar from "../components/Sidebar";
-import { defaultConfig } from 'next/dist/server/config-shared';
-// importar os dados que eu vou usar (lembrar disso nos próximos)
 
+// lembrete: pesquisar como faz um setup básico de layout pra fazer esse código aqui
 
-// colocar o titulo e descrição
 export const metadata: Metadata = {
-    title: "Plataforma de Eventos",
-    description: "Eventos, ingressos digitais e acesso por catracas inteligentes."
+  title: "Plataforma de Eventos",
+  description: "Eventos, detalhes e ingressos digitais",
 };
 
-// setar o layout raiz do site
+// fazendo a raiz do layout
+
 export default function RootLayout({
-    children,
-}:{
-    children: React.ReactNode;
-}) {
-    return(
-        <html lang="pt-br">
-            <body>
-                <div className='layout'>
-                    <Sidebar></Sidebar>
-                    <main className='conteudo'>{children}</main>
-                </div>
-            </body>
-        </html>
-    );
-}
+  children}: {children: React.ReactNode}
+){
+  <html lang = "pt-br">
+    <body>
+      <div className='appShell'>
+        <Sidebar></Sidebar>
+        <main className='appMain'>{children}</main>
+      </div>
+    </body>
+  </html>
+};

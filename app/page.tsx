@@ -1,64 +1,86 @@
-import Link from "next/link";
-import { eventos } from "./lib/eventos";
+import EventCard from "../components/EventCard";
+import { destaquesDaSemana } from "./lib/eventos";
+import { proximosEventos } from "./lib/eventos";
+// importando as funções que eu vou usar
 
-// como eu guardei todos os eventos em uma array, eu vou manipular essa array para obter meus destaques e prox eventos, que são os dois caras que tem que aparecer na Home page do site
-
+// começar a fazer a home
 export default function HomePage(){
-    const destaques = eventos.filter((evento)=> evento.destaque);
-    const proximos = eventos.slice(0,3);
+  const destaques = destaquesDaSemana();
+   const proximos = proximosEventos(6);
 
-    //preciso fazer duas coisas na home, a seção de destaques e a sessão de próximos eventos
-
-    // section e depois div nas seções
-    
-      return (
+     return (
     <div className="page">
-      <section className="banner">
-        <div className="bannertitle">Destaques da Semana</div>
-        <div className="destaques">
-          {destaques.map((evento) => (
-            <Link key={evento.id} className="destaqueCard" href={`/eventos/${evento.id}`}>
-              <img className="cardimg" src={evento.imagem} alt={evento.nome} />
-              <div className="cardbody">
-                <div className="cardtitle">{evento.nome}</div>
-                <div className="cardmeta">
-                  {evento.data} • {evento.horario}
+      <header className="pageHeader">
+        <h1 className="pageTitle">Home</h1>
+        <p className="pageSubtitle">Experiencias imersivas • compra e visualizacao de ingressos</p>
+      </header>
+
+      {/* fazendo o titulo da home */}
+
+      <section className="section">
+        <div className="header">
+          <h2 className="titulo">Destaques da Semana</h2>
+          <span className="banner">Banner</span>
+        </div>
+
+        {/* fazer uma div com tudo que vai estar dentro do meu banner , os destaques vão estar em banner*/}
+
+        <div className="banner">
+            <div className="bannerGrid">
+              {destaques.map((evento) => (
+                <div key={evento.id} className="bannerItem">
+                  <img className="bannerImagem" src={evento.imagem} alt={evento.titulo} />
+                  <div className="bannerOverlay">
+                    <div className="bannerTitle">{evento.titulo}</div>
+                    <div className="bannerMeta">
+                      {evento.data} • {evento.horario} • a partir de R$ {evento.precoInicial}
+                    </div>
+                  </div>
                 </div>
-                <div className="cardprice">A partir de R$ {evento.valorInicial}</div>
-              </div>
-            </Link>
-                  ))}
+              ))}
+            </div>
         </div>
       </section>
 
-      {/* primeiro uma div geral, depois uma seção pras duas e por fim colocar os detalhes do folder em si, fiz isso tanto para os destaques da semana quanto para os próximos eventos */}
+      {/* fazer agora os próximos eventos, que vão estar na horizontal e em menor destaque na página */}
 
       <section className="section">
-        <div className="sectiontitle">Próximos Eventos</div>
+        <div className="header">
+          <h2 className="titulo">Proximos Eventos</h2>
+          <span className="horizontal">Listagem horizontal</span>
+        </div>
 
-        <div className="grid">
+        {/* achar os eventos e colocar eles na lista horizontal */}
+        <div className="horizontalList">
           {proximos.map((evento) => (
-            <Link key={evento.id} className="eventCard" href={`/eventos/${evento.id}`}>
-              <img className="cardimg" src={evento.imagem} alt={evento.nome} />
-              <div className="cardbody">
-                <div className="cardtitle">{evento.nome}</div>
-                <div className="cardmeta">
-                  {evento.data} • {evento.horario}
-                </div>
-                <div className="cardprice">A partir de R$ {evento.valorInicial}</div>
-              </div>
-            </Link>
+            <div key={evento.id} className="horizontalItem">
+              <EventCard evento={evento} variante="horizontal" />
+            </div>
           ))}
-                </div>
+        </div>
       </section>
 
-      {/* por fim, fazer um footer pra página */}
+      {/* fazendo o rodapé: uma div com os elementos de texto */}
 
       <footer className="footer">
-        <div>Contato: contato@cristinaeventos.com</div>
-        <div>Localização: Av. Fluxo, 456 — Rio de Janeiro</div>
+        <div className="footerGrid">
+          <div>
+            <div className="footerTitle">Contato</div>
+            <div className="smallMuted">contato@espaco.com</div>
+            <div className="smallMuted">(21) 0800-000</div>
+          </div>
+          <div>
+            <div className="footerTitle">Localizacao</div>
+            <div className="smallMuted">Rua FLuxo, 6767 • Centro • RJ</div>
+            <div className="smallMuted">Acesso por catracas inteligentes</div>
+          </div>
+          <div>
+            <div className="footerTitle">Atalhos</div>
+            <div className="smallMuted">Home • Eventos • Ingressos • Perfil</div>
+          </div>
+        </div>
       </footer>
     </div>
   );
-}
 
+}

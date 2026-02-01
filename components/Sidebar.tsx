@@ -1,42 +1,43 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-// próximo passo : fazer a sidebar 
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/eventos", label: "Lista de Eventos" },
+  { href: "/ingressos", label: "Meus Ingressos" },
+  { href: "/perfil", label: "Perfil" },
+];
 
+export default function Sidebar() {
+  const pathname = usePathname();
 
-// fazer meio que o titulo da sidebar
-export default function Sidebar(){
-    return(
-        <aside className="sidebar">
-            <div className="branding">
-                <div className="tituloDaBrand">
-                    CRISTINA
-                </div>
-                <div className="subTituloDaBrand">
-                    EVENTOS & INGRESSOS
-                </div>
-            </div>
+  return (
+    <aside className="sidebar">
+      <div className="sidebarBrand">
+        <div className="brandTitle">Plataforma</div>
+        <div className="brandSub">Eventos • Ingressos</div>
+      </div>
 
-{/* fazer os elementos da sidebar */}
-
-        <nav className="navegacao">
-            <Link href="/" className="linkDeNavegacao">
-            Home
+      <nav className="sidebarNav">
+        {links.map((item) => {
+          const ativo = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href));
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              className={ativo ? "sidebarLink active" : "sidebarLink"}
+            >
+              {item.label}
             </Link>
-            
-            <Link href="/" className="linkdeNavegacao"
-            >Lista de Eventos
-            </Link>
+          );
+        })}
+      </nav>
 
-            <Link href="/" className="linkdeNavegacao">
-            Meus Ingressos
-            </Link>
-
-            <Link href="/" className="linkdeNavegacao">
-            Perfil
-            </Link>
-        </nav>
-        </aside>
-    );
+      <div className="sidebarFooter">
+        <div className="smallMuted">Simulacao de area logada</div>
+      </div>
+    </aside>
+  );
 }
-
-// coloquei os links para redirecionar para as páginas 

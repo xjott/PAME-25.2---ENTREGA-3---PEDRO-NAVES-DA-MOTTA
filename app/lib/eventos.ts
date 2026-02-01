@@ -1,50 +1,66 @@
-export type Evento = {
-  id: string;
-  nome: string;
-  data: string;
-  horario: string;
-  valorInicial: number;
-  imagem: string;
-  sinopse: string;
-  classificacao: string;
-  destaque: boolean;
-};
+import type { Evento } from "./types";
 
-export const eventos: Evento[] = [
+const eventos: Evento[] = [
   {
-    id: "1",
-    nome: "Festival Neon Night",
-    data: "10/02/2026",
+    id: "neon-night",
+    titulo: "Neon Night Festival",
+    imagem: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1400&q=80",
+    data: "2026-02-10",
     horario: "22:00",
-    valorInicial: 120,
-    imagem: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1200&q=80",
+    precoInicial: 120,
+    classificacao: "18+",
     sinopse:
-      "Uma noite imersiva com palco 360°, luzes e som de alta intensidade. Prepare-se para uma experiência tipo festival.",
-    classificacao: "18 anos",
+      "Uma noite imersiva com luzes, palco 360°, e um line-up focado em sets intensos. Experiencia audiovisual pensada para o salao.",
     destaque: true,
   },
   {
-    id: "2",
-    nome: "Show: Aurora Live",
-    data: "14/02/2026",
+    id: "cristina-live",
+    titulo: "Cristina Live Experience",
+    imagem: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=1400&q=80",
+    data: "2026-02-14",
     horario: "20:30",
-    valorInicial: 90,
-    imagem: "https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1200&q=80",
+    precoInicial: 90,
+    classificacao: "16+",
     sinopse:
-      "Show com visual cinematográfico, telões e efeitos sincronizados. Setlist completo + momentos especiais.",
-    classificacao: "16 anos",
+      "Show principal com performance imersiva e cenografia sincronizada. Entradas digitais integradas a catracas inteligentes.",
     destaque: true,
   },
   {
-    id: "3",
-    nome: "Baile Nostalgia",
-    data: "21/02/2026",
-    horario: "23:00",
-    valorInicial: 60,
-    imagem: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?auto=format&fit=crop&w=1200&q=80",
+    id: "afterglow",
+    titulo: "Afterglow (DJ Set)",
+    imagem: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1400&q=80",
+    data: "2026-02-21",
+    horario: "23:30",
+    precoInicial: 60,
+    classificacao: "18+",
     sinopse:
-      "Festa com hits de várias eras, pista temática e ativações. Perfeito pra ir em grupo.",
-    classificacao: "18 anos",
-    destaque: false,
+      "Pista aberta, bass e house, com visual minimalista e laser controlado por bpm. Evento ideal para testar a experiencia do espaco.",
+  },
+  {
+    id: "sunset-session",
+    titulo: "Sunset Session",
+    imagem: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=80",
+    data: "2026-03-01",
+    horario: "18:00",
+    precoInicial: 50,
+    classificacao: "Livre",
+    sinopse:
+      "Fim de tarde com musica, bar e clima leve. Um formato de evento mais curto, focado em convivencia e ambientacao.",
   },
 ];
+
+// depois de definir alguns eventos-exemplo, vou definir algumas funções que ele pede
+export default eventos;
+
+export function buscarEventoPorId(id:string): Evento | undefined{
+  return eventos.find((evento)=> evento.id===id);
+}
+
+// essas duas funções vão ser usadas pra fazer a home page funcionar 
+export function destaquesDaSemana(): Evento[]{
+  return eventos.filter((evento)=> evento.destaque)
+}
+
+export function proximosEventos(limit:number): Evento[]{
+  return [...eventos].slice(0, limit)
+}

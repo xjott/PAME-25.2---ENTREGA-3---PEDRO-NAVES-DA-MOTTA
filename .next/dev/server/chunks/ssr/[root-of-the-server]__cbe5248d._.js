@@ -25,20 +25,20 @@ function EventCard({ evento, variante = "grid" }) {
         className: variante === "horizontal" ? "card cardHorizontal" : "card",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "cardImage|Wrap",
+                className: "cardImageWrap",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                    className: "cardimage",
+                    className: "cardImage",
                     src: evento.imagem,
                     alt: evento.titulo
                 }, void 0, false, {
                     fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                    lineNumber: 14,
-                    columnNumber: 13
+                    lineNumber: 13,
+                    columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                lineNumber: 13,
-                columnNumber: 13
+                lineNumber: 11,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "cardBody",
@@ -48,8 +48,8 @@ function EventCard({ evento, variante = "grid" }) {
                         children: evento.titulo
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                        lineNumber: 19,
-                        columnNumber: 13
+                        lineNumber: 17,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "cardMeta",
@@ -58,28 +58,28 @@ function EventCard({ evento, variante = "grid" }) {
                                 children: evento.data
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                                lineNumber: 22,
-                                columnNumber: 17
+                                lineNumber: 20,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                children: "."
+                                children: "•"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                                lineNumber: 23,
-                                columnNumber: 17
+                                lineNumber: 21,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: evento.horario
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                                lineNumber: 24,
-                                columnNumber: 17
+                                lineNumber: 22,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                        lineNumber: 21,
-                        columnNumber: 13
+                        lineNumber: 19,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "cardPrice",
@@ -89,48 +89,47 @@ function EventCard({ evento, variante = "grid" }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                        lineNumber: 27,
-                        columnNumber: 13
+                        lineNumber: 25,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "cardActions",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                className: "btn btnGhost",
                                 href: `/eventos/${evento.id}`,
+                                className: "btn",
                                 children: "Ver detalhes"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                                lineNumber: 30,
-                                columnNumber: 13
+                                lineNumber: 28,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: "btn btnPrimary",
+                                className: "btn",
                                 type: "button",
-                                disabled: true,
-                                children: "Comprar"
+                                children: "Comprar (visual)"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                                lineNumber: 33,
-                                columnNumber: 13
+                                lineNumber: 31,
+                                columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                        lineNumber: 29,
-                        columnNumber: 13
+                        lineNumber: 27,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-                lineNumber: 18,
-                columnNumber: 13
+                lineNumber: 16,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/ENTREGA3/site/components/EventCard.tsx",
-        lineNumber: 12,
-        columnNumber: 9
+        lineNumber: 10,
+        columnNumber: 5
     }, this);
 }
 }),
@@ -140,35 +139,24 @@ function EventCard({ evento, variante = "grid" }) {
 __turbopack_context__.s([
     "buscarEventoPorId",
     ()=>buscarEventoPorId,
+    "default",
+    ()=>__TURBOPACK__default__export__,
     "destaquesDaSemana",
     ()=>destaquesDaSemana,
-    "eventos",
-    ()=>eventos,
     "proximosEventos",
     ()=>proximosEventos
 ]);
 const eventos = [
     {
-        id: "Forza",
-        titulo: "Festival horizon",
-        imagem: "https://static.wikia.nocookie.net/liberproeliis/images/f/f4/Rick_Sanchez_C-137_dimension_preview.png/revision/latest?cb=20231022133205&path-prefix=pt-br",
-        data: "10/02/2026",
+        id: "neon-night",
+        titulo: "Neon Night Festival",
+        imagem: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=1400&q=80",
+        data: "2026-02-10",
         horario: "22:00",
-        precoInicial: 80,
+        precoInicial: 120,
         classificacao: "18+",
-        sinopse: "lorem ipsum",
+        sinopse: "Uma noite imersiva com luzes, palco 360°, e um line-up focado em sets intensos. Experiencia audiovisual pensada para o salao.",
         destaque: true
-    },
-    {
-        id: "tardezinha",
-        titulo: "Tardezinha",
-        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfxgaeI9XfzT8qdWhYYr0I5b3G3E78q2P1mA&s",
-        data: "12/02/2026",
-        horario: "14:00",
-        precoInicial: 90,
-        classificacao: "18+",
-        sinopse: "lorem ipsum",
-        destaque: false
     },
     {
         id: "cristina-live",
@@ -180,8 +168,29 @@ const eventos = [
         classificacao: "16+",
         sinopse: "Show principal com performance imersiva e cenografia sincronizada. Entradas digitais integradas a catracas inteligentes.",
         destaque: true
+    },
+    {
+        id: "afterglow",
+        titulo: "Afterglow (DJ Set)",
+        imagem: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=1400&q=80",
+        data: "2026-02-21",
+        horario: "23:30",
+        precoInicial: 60,
+        classificacao: "18+",
+        sinopse: "Pista aberta, bass e house, com visual minimalista e laser controlado por bpm. Evento ideal para testar a experiencia do espaco."
+    },
+    {
+        id: "sunset-session",
+        titulo: "Sunset Session",
+        imagem: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=80",
+        data: "2026-03-01",
+        horario: "18:00",
+        precoInicial: 50,
+        classificacao: "Livre",
+        sinopse: "Fim de tarde com musica, bar e clima leve. Um formato de evento mais curto, focado em convivencia e ambientacao."
     }
 ];
+const __TURBOPACK__default__export__ = eventos;
 function buscarEventoPorId(id) {
     return eventos.find((evento)=>evento.id === id);
 }
@@ -189,7 +198,9 @@ function destaquesDaSemana() {
     return eventos.filter((evento)=>evento.destaque);
 }
 function proximosEventos(limit) {
-    return eventos.slice(0, limit);
+    return [
+        ...eventos
+    ].slice(0, limit);
 }
 }),
 "[project]/Desktop/ENTREGA3/site/app/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
@@ -200,11 +211,8 @@ __turbopack_context__.s([
     ()=>HomePage
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/ENTREGA3/site/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-// importar as funcionalidades que eu vou usar
-var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/ENTREGA3/site/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$components$2f$EventCard$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/ENTREGA3/site/components/EventCard.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$app$2f$lib$2f$eventos$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/ENTREGA3/site/app/lib/eventos.ts [app-rsc] (ecmascript)");
-;
 ;
 ;
 ;
@@ -212,7 +220,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$
 function HomePage() {
     const destaques = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$app$2f$lib$2f$eventos$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["destaquesDaSemana"])();
     const proximos = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$app$2f$lib$2f$eventos$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["proximosEventos"])(6);
-    // header
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "page",
         children: [
@@ -224,21 +231,21 @@ function HomePage() {
                         children: "Home"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                        lineNumber: 16,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "pageSubtitle",
-                        children: "Acompanhe a programacao, veja detalhes e simule a compra de ingressos digitais."
+                        children: "Experiencias imersivas • compra e visualizacao de ingressos"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                        lineNumber: 17,
+                        lineNumber: 13,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                lineNumber: 15,
+                lineNumber: 11,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -252,21 +259,21 @@ function HomePage() {
                                 children: "Destaques da Semana"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                lineNumber: 25,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "smallMuted",
-                                children: "banner"
+                                children: "Banner"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                lineNumber: 26,
+                                lineNumber: 19,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                        lineNumber: 24,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -276,12 +283,11 @@ function HomePage() {
                             children: "Sem destaques no momento."
                         }, void 0, false, {
                             fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                            lineNumber: 31,
+                            lineNumber: 24,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "bannerGrid",
-                            children: destaques.map((evento)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                    href: `/eventos/${evento.id}`,
+                            children: destaques.map((evento)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bannerItem",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
@@ -290,7 +296,7 @@ function HomePage() {
                                             alt: evento.titulo
                                         }, void 0, false, {
                                             fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 29,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -301,7 +307,7 @@ function HomePage() {
                                                     children: evento.titulo
                                                 }, void 0, false, {
                                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                                    lineNumber: 38,
+                                                    lineNumber: 31,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -315,35 +321,35 @@ function HomePage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                                    lineNumber: 39,
+                                                    lineNumber: 32,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                            lineNumber: 37,
+                                            lineNumber: 30,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, evento.id, true, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 35,
+                                    lineNumber: 28,
                                     columnNumber: 17
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                            lineNumber: 33,
+                            lineNumber: 26,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                        lineNumber: 29,
+                        lineNumber: 22,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                lineNumber: 23,
+                lineNumber: 16,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -357,21 +363,21 @@ function HomePage() {
                                 children: "Proximos Eventos"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                lineNumber: 53,
+                                lineNumber: 45,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "smallMuted",
-                                children: "listagem horizontal"
+                                children: "Listagem horizontal"
                             }, void 0, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                lineNumber: 54,
+                                lineNumber: 46,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                        lineNumber: 52,
+                        lineNumber: 44,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -383,23 +389,23 @@ function HomePage() {
                                     variante: "horizontal"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 60,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, this)
                             }, evento.id, false, {
                                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                lineNumber: 59,
+                                lineNumber: 51,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                        lineNumber: 57,
+                        lineNumber: 49,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                lineNumber: 51,
+                lineNumber: 43,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -414,7 +420,7 @@ function HomePage() {
                                     children: "Contato"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 61,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -422,7 +428,7 @@ function HomePage() {
                                     children: "contato@espaco.com"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 62,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -430,13 +436,13 @@ function HomePage() {
                                     children: "(21) 99999-9999"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 63,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                            lineNumber: 69,
+                            lineNumber: 60,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -446,7 +452,7 @@ function HomePage() {
                                     children: "Localizacao"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -454,62 +460,62 @@ function HomePage() {
                                     children: "Rua Exemplo, 123 • Centro • RJ"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 77,
+                                    lineNumber: 67,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "smallMuted",
-                                    children: "Entrada por catracas inteligentes"
+                                    children: "Acesso por catracas inteligentes"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 68,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                            lineNumber: 75,
+                            lineNumber: 65,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "footerTitle",
-                                    children: "Links"
+                                    children: "Atalhos"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 82,
+                                    lineNumber: 71,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$ENTREGA3$2f$site$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "smallMuted",
-                                    children: "Home • Lista de Eventos • Meus Ingressos • Perfil"
+                                    children: "Home • Eventos • Ingressos • Perfil"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 72,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                            lineNumber: 81,
+                            lineNumber: 70,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                    lineNumber: 68,
+                    lineNumber: 59,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-                lineNumber: 67,
+                lineNumber: 58,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/ENTREGA3/site/app/page.tsx",
-        lineNumber: 14,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 }
