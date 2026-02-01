@@ -1,29 +1,35 @@
-export default function PerfilPage() {
-  return (
-    <div className="page">
-      <header className="pageHeader">
-        <h1 className="pageTitle">Perfil</h1>
-        <p className="pageSubtitle">Pagina simples (simulacao)</p>
+// fazer o perfil do usuário, vai ser simples, então um arquivo só should do the trick
+
+export default function PerfilPage(){
+  return(
+    <div className="pagina">
+      <header className="header">
+        <h1 className="titulo">Perfil</h1>
+        <p className="subtitulo">Página </p>
       </header>
 
-      <section className="section">
-        <div className="card">
-          <div className="cardBody">
-            <h2 className="sectionTitle">Usuario</h2>
-            <p className="text">Nome: Cliente Exemplo</p>
-            <p className="text">Email: cliente@exemplo.com</p>
+{/* não precisei organizar tanto quanto nas outras páginas devido ao fato de que não há uso de variável aqui, não importo nada de outros files */}
 
-            <div className="cardActions">
-              <button className="btn btnPrimary" type="button" disabled>
-                Editar (visual)
-              </button>
-              <button className="btn btnGhost" type="button" disabled>
-                Sair (visual)
-              </button>
-            </div>
-          </div>
+    <section className="section">
+      <div className="card">
+        <div className="bodydocard">
+          <h2 className="titulosecao">Usuário</h2>
+          <p className="texto">Nome: Cristina</p>
+          <p className="texto">email : Cristina@exemplo.com</p>
+
+{/* ações do usuário (para efeito visual apenas) */}
+
+      <div className="acoesCard">
+        <button className="btn btnprimary">
+        Editar
+        </button>
+        <button className="btn btnsecondary">
+          Sair
+      </button>
+      </div>
         </div>
-      </section>
+      </div>
+    </section>
     </div>
-  );
+  )
 }
