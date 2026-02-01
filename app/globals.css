@@ -62,7 +62,7 @@ img{
   max-width: 100%;
 }
 
-/* layout principal (shell)/*
+/* layout principal (shell)*/
 
 /* grid com sidebar fixa e conteúdo principal do lado */
 .appShell{
@@ -322,6 +322,12 @@ img{
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
   overflow: hidden;
+  max-width: 420px;
+}
+
+.perfilBody{
+  align-items: center;
+  text-align: center;
 }
 
 /* versão horizontal */

@@ -11,11 +11,11 @@ export default function PerfilPage(){
 {/* não precisei organizar tanto quanto nas outras páginas devido ao fato de que não há uso de variável aqui, não importo nada de outros files */}
 
     <section className="section">
-      <div className="card">
-        <div className="bodydocard">
+      <div className="card perfilCard">
+        <div className="cardBody perfilBody">
           <h2 className="titulosecao">Usuário</h2>
-          <p className="texto">Nome: Cristina</p>
-          <p className="texto">email : Cristina@exemplo.com</p>
+          <div className="texto">Nome: Cristina</div>
+          <div className="texto">email : Cristina@exemplo.com</div>
 
 {/* ações do usuário (para efeito visual apenas) */}
 
