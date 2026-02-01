@@ -1,5 +1,8 @@
 import type { Ingresso } from "./types";
 
+
+// fazer uns ingressos fakes
+
 const ingressos: Ingresso[] = [
   {
     id: "t-001",
