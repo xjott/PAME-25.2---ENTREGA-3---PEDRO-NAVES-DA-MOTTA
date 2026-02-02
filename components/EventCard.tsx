@@ -25,7 +25,7 @@ export default function EventCard({ evento, variante = "grid" }: Props) {
         <div className="cardPrice">A partir de R$ {evento.precoInicial}</div>
 
         <div className="cardActions">
-          <Link href={`/eventos`} className="btn">
+          <Link href="/informacoes" className="btn">
             Ver detalhes
             </Link>
         <button className="btn" type="button">

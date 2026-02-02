@@ -9,16 +9,14 @@ module.exports = mod;
 
 __turbopack_context__.n(__turbopack_context__.i("[project]/Desktop/ENTREGA3/site/app/layout.tsx [app-rsc] (ecmascript)"));
 }),
-"[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([]);
-;
+const e = new Error("Could not parse module '[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx'\n\nExpected ',', got ']'");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {
 
 __turbopack_context__.n(__turbopack_context__.i("[project]/Desktop/ENTREGA3/site/app/eventos/page.tsx [app-rsc] (ecmascript)"));
 }),
 ];
-
-//# sourceMappingURL=%5Broot-of-the-server%5D__afccd56e._.js.map
